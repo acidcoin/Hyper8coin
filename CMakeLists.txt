@@ -4,6 +4,7 @@ set(VERSION "0.1")
 # $Format:Packaged from commit %H%nset(COMMIT %h)%nset(REFS "%d")$
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+set_property(TARGET daemon PROPERTY OUTPUT_NAME "Hyper8coin")
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release")
 enable_testing()
 
